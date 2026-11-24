@@ -1,0 +1,32 @@
+[
+  {
+    "id": "add",
+    "func_name": "add",
+    "prompt": "Write a Python function `add(a, b)` that returns the sum of a and b. Respond with ONLY the function definition, no explanation, no markdown fences.",
+    "test_cases": [[[1, 2], 3], [[-1, 1], 0], [[0, 0], 0], [[100, 200], 300]]
+  },
+  {
+    "id": "is_palindrome",
+    "func_name": "is_palindrome",
+    "prompt": "Write a Python function `is_palindrome(s)` that returns True if the string s reads the same forwards and backwards (case-insensitive), else False. Respond with ONLY the function definition, no explanation, no markdown fences.",
+    "test_cases": [[["racecar"], true], [["hello"], false], [["Noon"], true], [[""], true]]
+  },
+  {
+    "id": "fibonacci",
+    "func_name": "fibonacci",
+    "prompt": "Write a Python function `fibonacci(n)` that returns the nth Fibonacci number, 0-indexed, where fibonacci(0) == 0 and fibonacci(1) == 1. Respond with ONLY the function definition, no explanation, no markdown fences.",
+    "test_cases": [[[0], 0], [[1], 1], [[5], 5], [[10], 55]]
+  },
+  {
+    "id": "reverse_words",
+    "func_name": "reverse_words",
+    "prompt": "Write a Python function `reverse_words(s)` that returns the words of string s in reverse order, joined by a single space. Respond with ONLY the function definition, no explanation, no markdown fences.",
+    "test_cases": [[["hello world"], "world hello"], [["a b c"], "c b a"], [["single"], "single"]]
+  },
+  {
+    "id": "is_prime",
+    "func_name": "is_prime",
+    "prompt": "Write a Python function `is_prime(n)` that returns True if n is a prime number, else False. Assume n is a non-negative integer. Respond with ONLY the function definition, no explanation, no markdown fences.",
+    "test_cases": [[[2], true], [[4], false], [[17], true], [[1], false], [[0], false]]
+  }
+]
